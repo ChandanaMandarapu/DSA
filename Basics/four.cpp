@@ -36,19 +36,42 @@ int main()
 
     // divisible by 4 my code
 
-    for (int i = 1; i<=n ; i= i+4)
-    {
-        cout<<i<<endl;
-    }
+    // for (int i = 1; i<=n ; i= i+4)
+    // {
+    //     cout<<i<<endl;
+    // }
 
     // gpt code
 
-    for (int i = 1; i <= n; i++) {
-        if (i % 4 == 0) {
-            cout << i << " ";
-        }
-    }
-    cout << endl;
+    // for (int i = 1; i <= n; i++) {
+    //     if (i % 4 == 0) {
+    //         cout << i << " ";
+    //     }
+    // }
+    // cout << endl;
 
-    return 0;
+    // return 0;
+    
+    // printing characters
+    // for(char name = 'a'; name<='z';name++)
+    // {
+    //     cout<<name<<endl;
+    // }
+
+    // priniting n numbers in reverse order
+
+    // for(int i = n ; i>=1;i=i-1)
+    // {
+    //     cout<<i<<" "<<endl;
+    // }
+
+    for(int i = 1; i<=100 ; i = i+3)
+    {
+        cout<<i<<" "<<endl;
+    }
+
+    // for(int i = 1; i<n ; i++) 
+    // {
+    //     cout<<i<<""<<endl;
+    // }
 }
