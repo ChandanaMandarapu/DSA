@@ -45,4 +45,26 @@ int main() {
         cout << "consonant";
     }
 
+    // bitwise operators
+
+    // & operator
+
+    int ans = 2&3;
+    cout << ans;
+
+    int an = 2|3;
+    cout << an;
+
+    int ax = 2^3;
+    cout << ax;
+
+    int lf = 2<<3;
+    cout << lf;
+
+    int rf = 8>>2;
+    cout << rf;
+
+    int comp = ~5;
+    cout << comp;
+
 }
