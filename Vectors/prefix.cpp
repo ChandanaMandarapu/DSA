@@ -1,6 +1,7 @@
 #include<iostream>
 #include <vector>
 using namespace std;
+
 bool divide(vector<int>arr)
 {
     int prefix =0, total_sum = 0;
@@ -11,7 +12,7 @@ bool divide(vector<int>arr)
 
     for(int i= 0; i<n; i++)
     {
-        prefix = arr[i];
+        prefix += arr[i];
         if(total_sum == 2*prefix)
         return 1;
     }
