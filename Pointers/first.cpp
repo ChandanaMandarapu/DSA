@@ -6,11 +6,19 @@ int main()
 {
     int a = 10;
     // pringing address
-    cout << &a << endl;
+    // cout << &a << endl;
+    // int *ptr = &a;
+    // cout << ptr << endl;
+    // cout << sizeof(ptr);
+    // float m = 2.6;
+    // float *ptr1 = &m;
+    // cout <<ptr1 << endl;
     int *ptr = &a;
     cout << ptr << endl;
-    cout << sizeof(ptr);
-    float m = 2.6;
-    float *ptr1 = &m;
-    cout <<ptr1 << endl;
+    cout << *ptr << endl;
+
+    int b = 20;
+    ptr = &b;
+    cout << ptr << endl;
+    cout << *ptr << endl;
 }
