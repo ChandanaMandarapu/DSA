@@ -31,5 +31,13 @@ int main()
         cout << *(arr + i) << endl;
     }
 
-    
+    for (int i = 0; i < 5; i++)
+        cout << ptr[i] << endl;
+
+    for (int i = 0; i < 5; i++)
+        cout << ptr + i << endl;
+
+    for (int i = 0; i < 5; i++)
+        cout << ptr << endl;
+    ptr++;
 }
